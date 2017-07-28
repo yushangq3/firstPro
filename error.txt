@@ -1,0 +1,84 @@
+ error  in ./src/entry-server.js
+
+Module build failed: ReferenceError: Unknown plugin "transform-runtime" specified in "C:\\Users\\webfoss\\Documents\\HBuilderProject\\firstPro-SSR\\.babelrc" at 0, attempted to resolve relative to "C:\\Users\\webfoss\\Documents\\HBuilderProject\\firstPro-SSR"
+    at C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:180:17
+    at Array.map (native)
+    at Function.normalisePlugins (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:158:20)
+    at OptionManager.mergeOptions (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:234:36)
+    at OptionManager.init (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:368:12)
+    at File.initOptions (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\index.js:212:65)
+    at new File (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\index.js:135:24)
+    at Pipeline.transform (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\pipeline.js:46:16)
+    at transpile (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-loader\lib\index.js:49:20)
+    at Object.module.exports (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-loader\lib\index.js:174:20)
+
+ ERROR  Failed to compile with 1 errors15:44:52
+
+ error  in ./src/entry-client.js
+
+Module build failed: ReferenceError: Unknown plugin "transform-runtime" specified in "C:\\Users\\webfoss\\Documents\\HBuilderProject\\firstPro-SSR\\.babelrc" at 0, attempted to resolve relative to "C:\\Users\\webfoss\\Documents\\HBuilderProject\\firstPro-SSR"
+    at C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:180:17
+    at Array.map (native)
+    at Function.normalisePlugins (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:158:20)
+    at OptionManager.mergeOptions (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:234:36)
+    at OptionManager.init (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:368:12)
+    at File.initOptions (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\index.js:212:65)
+    at new File (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\index.js:135:24)
+    at Pipeline.transform (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\pipeline.js:46:16)
+    at transpile (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-loader\lib\index.js:49:20)
+    at Object.module.exports (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-loader\lib\index.js:174:20)
+
+ @ multi webpack-hot-middleware/client ./src/entry-client.js
+
+./src/entry-client.js
+Module build failed: ReferenceError: Unknown plugin "transform-runtime" specified in "C:\\Users\\webfoss\\Documents\\HBuilderProject\\firstPro-SSR\\.babelrc" at 0, attempted to resolve relative to "C:\\Users\\webfoss\\Documents\\HBuilderProject\\firstPro-SSR"
+    at C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:180:17
+    at Array.map (native)
+    at Function.normalisePlugins (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:158:20)
+    at OptionManager.mergeOptions (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:234:36)
+    at OptionManager.init (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:368:12)
+    at File.initOptions (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\index.js:212:65)
+    at new File (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\index.js:135:24)
+    at Pipeline.transform (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\pipeline.js:46:16)
+    at transpile (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-loader\lib\index.js:49:20)
+    at Object.module.exports (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-loader\lib\index.js:174:20)
+ @ multi webpack-hot-middleware/client ./src/entry-client.js
+webpack built 1666d30dcd91c693a705 in 547ms
+Hash: 1666d30dcd91c693a705
+Version: webpack 3.4.0
+Time: 547ms
+          Asset      Size  Chunks  Chunk Names
+      vendor.js   77.1 kB       0  vendor
+         app.js   2.04 kB       1  app
+    manifest.js   30.8 kB       2  manifest
+  vendor.js.map   85.7 kB       0  vendor
+     app.js.map  91 bytes       1  app
+manifest.js.map   32.6 kB       2  manifest
+   [0] ./node_modules/html-entities/lib/html5-entities.js 49 kB {0} [built]
+   [1] multi webpack-hot-middleware/client ./src/entry-client.js 40 bytes {1} [built]
+   [2] (webpack)-hot-middleware/client.js 6.68 kB {0} [built]
+   [3] (webpack)/buildin/module.js 517 bytes {0} [built]
+   [4] ./node_modules/strip-ansi/index.js 161 bytes {0} [built]
+   [5] ./node_modules/ansi-regex/index.js 135 bytes {0} [built]
+   [6] (webpack)-hot-middleware/client-overlay.js 1.82 kB {0} [built]
+   [7] ./node_modules/ansi-html/index.js 4.26 kB {0} [built]
+   [8] ./node_modules/html-entities/index.js 231 bytes {0} [built]
+   [9] ./node_modules/html-entities/lib/xml-entities.js 2.99 kB {0} [built]
+  [10] ./node_modules/html-entities/lib/html4-entities.js 6.59 kB {0} [built]
+  [11] (webpack)-hot-middleware/process-update.js 3.88 kB {0} [built]
+  [12] ./src/entry-client.js 1.78 kB {1} [built] [failed] [1 error]
+
+ERROR in ./src/entry-client.js
+Module build failed: ReferenceError: Unknown plugin "transform-runtime" specified in "C:\\Users\\webfoss\\Documents\\HBuilderProject\\firstPro-SSR\\.babelrc" at 0, attempted to resolve relative to "C:\\Users\\webfoss\\Documents\\HBuilderProject\\firstPro-SSR"
+    at C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:180:17
+    at Array.map (native)
+    at Function.normalisePlugins (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:158:20)
+    at OptionManager.mergeOptions (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:234:36)
+    at OptionManager.init (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\options\option-manager.js:368:12)
+    at File.initOptions (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\index.js:212:65)
+    at new File (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\file\index.js:135:24)
+    at Pipeline.transform (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-core\lib\transformation\pipeline.js:46:16)
+    at transpile (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-loader\lib\index.js:49:20)
+    at Object.module.exports (C:\Users\webfoss\Documents\HBuilderProject\firstPro-SSR\node_modules\babel-loader\lib\index.js:174:20)
+ @ multi webpack-hot-middleware/client ./src/entry-client.js
+
